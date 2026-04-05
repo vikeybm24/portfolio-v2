@@ -6,7 +6,7 @@ const ThemeContext = createContext();
 
 // Create a provider component to wrap your App component
 function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState("github");
+  const [theme, setTheme] = useState("chatgpt");
 
   const changeTheme = (newTheme) => {
     setTheme(newTheme);
