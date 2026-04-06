@@ -3,6 +3,7 @@ import secureXtractai_img from "../../assets/images/secureXtractai_img.png";
 import findit_ai_img from "../../assets/images/findit_ai_img_head.png";
 import findit_doc from "../../assets/images/finditai_document-8-51 copy.pdf";
 import bookit_img from "../../assets/images/bookit_img.png";
+import audioparty_img from "../../assets/images/autoparty.png";
 
 export const project = [
   {
@@ -43,4 +44,13 @@ export const project = [
     sourceCode: "https://github.com/vikeybm24/bookit/",
     demo: "https://vikeybm24.github.io/bookit/",
   },
+  {
+    title: "Audio Stream",
+    description:
+      "A real-time audio streaming platform built with HTML and Express.js, allowing music to be streamed from a desktop to multiple mobile devices simultaneously.",
+    image: audioparty_img,
+    tags: ["Express.js", "HTML", "Node.js", "Streaming"],
+    sourceCode: "https://github.com/vikeybm24/audio-stream",
+    demo: "https://vikeybm24.github.io/audioparty-frontend/",
+  }
 ];

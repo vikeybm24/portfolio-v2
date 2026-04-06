@@ -59,7 +59,7 @@ function Github() {
         </div>
         <div className="h-full w-full  text-textColor">
           <ActivityCalendar
-            username="manavss"
+            username="vikeybm24"
             fontSize={17}
             theme={theme}
             hideColorLegend
